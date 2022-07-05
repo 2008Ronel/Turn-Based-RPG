@@ -1,0 +1,69 @@
+
+  
+.container{
+  display: flex;
+  flex-direction: column;
+}
+  .player {
+    width: 100%;
+  }
+
+  .player-1 {
+    background-color: rgb(255, 255, 255);
+  }
+    
+  button {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    border: 3px solid rgb(255, 0, 0);
+    cursor: pointer;
+  }
+
+
+  .player-2 {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+  }
+  
+
+  .disabled {
+    pointer-events: none;
+    cursor: not-allowed;
+  }
+
+
+
+
+.active h3{
+    color: red
+}
+
+.winner h3{
+  color: rgb(20, 0, 204);
+  background-color: rgb(0, 255, 34);
+}
+
+
+body {
+margin-top: 0;
+text-align: center;
+z-index: 2;
+
+}
+
+.hidden {
+  display: none;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 25px;
+}
